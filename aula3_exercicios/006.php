@@ -10,9 +10,4 @@ $array = [
     "n4" => 'oi mundo',
 ];
 
-var_dump($array);
-echo "<br>";
-print_r($array);
-print_r($array['teste']);
-
 ?>

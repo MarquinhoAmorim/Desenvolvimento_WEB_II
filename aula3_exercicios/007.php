@@ -13,24 +13,4 @@ $array = [
     "n3" => 30,
     "n4" => 'oi mundo',
 ];
-
-foreach ($array as $key => $number) {
-    echo " {$key} => {$number}" . PHP_EOL;
-    echo "<br>";
-}
-
-echo "<hr>". PHP_EOL;
-echo "<p> Apenas valores <b> inteiros e soma </b> </p>" . PHP_EOL;
-
-foreach ($array as $key => $number) {
-
-    if (is_numeric($number)) {
-        echo " $key => $number" . PHP_EOL;
-        echo "<br>";
-    }
-    
-};
-
-echo 'Soma dos valores inteiros(dentro do array): ' . array_sum($array);
-
 ?>
